@@ -3,25 +3,40 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url('IMG/main.png');
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    font-display: white;
 }
+.steps-grid{
+    gap: 50px;
+}
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #333;
+    padding: 10px;
+    background-color: #191919;
     color: white;
+     
 }
-
+    
 .logo img {
-    height: 100px; 
+    height: 50px;
+    width: 100px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+.hero {
+    color: rgb(255, 255, 255);
 }
 
 nav a {
@@ -117,7 +132,7 @@ form button {
 }
 
 footer {
-    background-color: #333;
+    background-color: #060606;
     color: white;
     text-align: center;
     padding: 20px;
@@ -132,6 +147,10 @@ footer .social-links a {
     text-decoration: none;
     margin: 0 10px;
 }
+
+    .social-links img {
+        height: 30px; 
+    }
 
 footer .social-links a:hover {
     text-decoration: underline;
